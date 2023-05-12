@@ -1,0 +1,29 @@
+{
+    "name": "Calculator",
+    "methods": [
+        {
+            "name": "add",
+            "args": [
+                {
+                    "type": "uint16",
+                    "name": "a"
+                },
+                {
+                    "type": "uint16",
+                    "name": "b"
+                }
+            ],
+            "returns": {
+                "type": "uint16"
+            }
+        },
+        {
+            "name": "read_result",
+            "args": [],
+            "returns": {
+                "type": "uint16"
+            }
+        }
+    ],
+    "networks": {}
+}
